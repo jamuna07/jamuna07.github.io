@@ -3,9 +3,9 @@
     for (var i = 0; i < names.length; i++) {
         var firstLetter = names[i].charAt(0).toLowerCase();
         if (firstLetter === 'J') {
-            byeSpeaker.speak(names[i]);
+            ByeSpeaker.speak(names[i]);
         } else {
-            helloSpeaker.speak(names[i]);
+            HelloSpeaker.speak(names[i]);
         }
     }
 })();
